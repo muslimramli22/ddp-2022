@@ -1,0 +1,8 @@
+<script>
+  let tglLahir = prompt("Masukan tanggal lahir (Mis: 14-08-2004");
+  alert(tglLahir);
+  let tanggal_new = tglLahir.split("-"); //tanggal_new = ["14","08","2004"]
+  console.log(tanggal_new[2]);
+  let umur = 2022 - tanggal_new[2];
+  document.write("Umur Muslim adalah: " + umur);
+</script>

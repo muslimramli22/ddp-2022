@@ -1,0 +1,16 @@
+<script>
+  let plat = prompt("Plat kendaraan: ");
+  let masuk = Number(prompt("Masuk:")); //1
+  let keluar = Number(prompt("keluar: ")); //6
+  let total_jam = keluar - masuk; //5
+  alert("Anda parkir selama: " + total_jam + " Jam!");
+  let setelah_satu_jam = total_jam - 1; //4
+  let biaya_parkir = setelah_satu_jam * 2000 + 4000; //12000
+  //   alert("total parkir: " + biaya_parkir);
+  if (biaya_parkir > 10000) {
+    biaya_parkir = 10000;
+    alert("Biaya Parkir Anda: Rp " + biaya_parkir + ",-");
+  } else {
+    alert("Biaya Parkir Anda: Rp " + biaya_parkir + ",-");
+  }
+</script>
